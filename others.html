@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            font-family: cursive;
+            background-color: #333;
+            color: white;
+            text-align: center;
+        }
+
+        .section {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        }
+
+        h2 {
+            margin-bottom: 20px;
+        }
+
+        .hobby {
+            margin-top: 50px;
+        }
+
+        .skill {
+            margin-top: 50px;
+        }
+
+        .languages {
+            margin-top: 50px;
+        }
+
+        iframe {
+            width: 100%;
+            height: 315px;
+            border: none;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-left: 30px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="section hobby">
+    <h2>My Hobbies</h2>
+    <details>
+        <summary><b>Playing Football</b></summary>
+        <iframe src="https://www.youtube.com/embed/b4_PA7GsLwA?start=8" title="Football Video" allowfullscreen></iframe>
+    </details>
+
+    <details>
+        <summary><b>Watching Movies</b></summary>
+        <iframe src="https://www.youtube.com/embed/3Z14uE7U0HY?start=8368" title="Movie Video" allowfullscreen></iframe>
+    </details>
+
+    <details>
+        <summary><b>Travelling</b></summary>
+        <iframe src="https://www.youtube.com/embed/bY_gRApfoJk" title="Travel Video" allowfullscreen></iframe>
+    </details>
+</div>
+
+<div class="section skill">
+    <h2>My Skills</h2>
+    <ul>
+        <li>Basic HTML</li>
+        <li>Basic CSS</li>
+        <li>Javascript</li>
+    </ul>
+</div>
+
+<div class="section languages">
+    <h2>Languages</h2>
+    <ul>
+        <li>Nepali</li>
+        <li>Hindi</li>
+        <li>English</li>
+        <li>Japanese</li>
+    </ul>
+</div>
+
+</body>
+</html>
